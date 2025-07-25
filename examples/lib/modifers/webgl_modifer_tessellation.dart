@@ -67,7 +67,7 @@ class _State extends State<WebglModifierTessellation> {
 		final loader = three.FontLoader();
     final font  = await loader.fromAsset( 'assets/helvetiker_bold.typeface.json');
 
-    final textG = three.TextGeometry( 'THREE.JS', three.TextGeometryOptions(
+    final textG = three.TextGeometry( /*'THREE.JS'*//*'KRMA'*/'GLOBAL ONLINE SOLUTION', three.TextGeometryOptions(
       font: font,
       size: 40,
       depth: 5,

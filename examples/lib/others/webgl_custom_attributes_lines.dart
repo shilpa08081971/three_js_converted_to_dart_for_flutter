@@ -109,7 +109,7 @@ class _State extends State<WebglCustomAttributesLines> {
 
 		final loader = three.FontLoader();
     final font = await loader.fromAsset( 'assets/helvetiker_bold.typeface.json');
-    final geometry = three.TextGeometry( 'three.js', three.TextGeometryOptions(
+    final geometry = three.TextGeometry( /*'three.js'*//*'KRMA'*/'GLOBAL ONLINE SOLUTION', three.TextGeometryOptions(
       font: font,
       size: 50,
       depth: 15,

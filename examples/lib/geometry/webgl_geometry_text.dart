@@ -135,7 +135,7 @@ class _MyAppState extends State<WebglGeometryText> {
   }
 
   void createText(font) {
-    String text = "Three_JS";
+    String text = /*"Three_JS"*//*"KRMA"*/"GLOBAL ONLINE SOLUTION";
     
     double fontHeight = 20,
       size = 70,

@@ -30,15 +30,15 @@ dependencies:
   three_js_line: ^0.1.0
   three_js_bvh_csg: ^0.1.0
 
-  permission_handler: ^11.3.1
-  camera: ^0.10.6
+  permission_handler: ^12.0.0+1
+  camera: ^0.11.1
   camera_macos: ^0.0.8
   camera_windows: ^0.2.5
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
+  flutter_lints: ^5.0.0
 
 dependency_overrides:
   permission_handler_apple:
